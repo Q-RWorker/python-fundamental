@@ -1,12 +1,12 @@
 
-# Sekuensial
+# Sekuensial / Sequential
 print('Ibu berkata, "Pergi ke toko"')
 print('Budi menjawab, "Baik, apa yang harus saya lakukan di toko?"')
 print('Ibu menjawab, "Beli 1 botol susu"')
 print("Maka Budi berangkat ke toko")
 print("Dan mulai berbelanja")
 
-# Percabangan
+# Percabangan / Branching
 jumlah_botol_susu = 173
 jumlah_telur = 1587
 
