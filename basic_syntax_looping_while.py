@@ -12,6 +12,6 @@ print(f"Jumlah buku yang sudah dibaca {buku_dibaca} buku")
 
 while buku_dibaca < jumlah_buku:
     buku_dibaca += 1
-    print(f"Baca buku ke - {buku_dibaca}")
+    print(f"Baca buku ke - {buku_dibaca} sudah dibaca")
 
 print(f"Jumlah buku yang sudah dibaca adalah {buku_dibaca}")
