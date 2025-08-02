@@ -3,7 +3,7 @@ Program Perulangan Dengan "While"
 """
 
 # Dengan 'While'
-
+print("Dengan WHILE")
 jumlah_buku = 10
 print('Perintah ibu, "Baca bukumu"')
 
