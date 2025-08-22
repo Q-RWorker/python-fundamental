@@ -3,26 +3,26 @@ Program Perulangan Dengan "While" undefined count with stop point
 """
 
 # Dengan 'While'
-print("Dengan WHILE")
-jumlah_buku = 10
-print('Perintah ibu, "Baca bukumu"')
+print("With WHILE")
+book_count = 10
+print('Mom said, "Read the books"')
 
-total_baca = 0
-buku_dibaca_dan_dipahami = 0
-print(f"Jumlah buku yang sudah dibaca & dipahami {buku_dibaca_dan_dipahami} buku")
+read_count = 0
+understood_count = 0
+print(f"Total books that have been read & undestood {understood_count} books")
 
-while total_baca < jumlah_buku * 2:
-    total_baca += 1
-    if buku_dibaca_dan_dipahami == 9:
-        print(f"Buku ke - {buku_dibaca_dan_dipahami + 1} belum paham")
+while read_count < book_count * 2:
+    read_count += 1
+    if understood_count == 9:
+        print(f"Book - {understood_count + 1} not understood")
     else:
-        buku_dibaca_dan_dipahami += 1
-        print(f"Buku ke - {buku_dibaca_dan_dipahami} dibaca & dipahami")
+        understood_count += 1
+        print(f"Book - {understood_count} read & understood")
 
-print(f"Jumlah buku yang sudah dibaca & dipahami adalah {buku_dibaca_dan_dipahami}")
+print(f"Total books that have been read & understood are {understood_count} books")
 
-if buku_dibaca_dan_dipahami == jumlah_buku:
-    print('Budi berkata, "Bu, semua buku sudah dibaca & dipahami"')
+if understood_count == book_count:
+    print('Kid says, "Mom, all the books have been read & understood"')
 else:
-    print(f'Budi berkata, "Bu, '
-          f'saya hanya bisa memahami {buku_dibaca_dan_dipahami} buku" ')
+    print(f'Kid says, "Mom, '
+          f'i can only have {understood_count} books " ')
