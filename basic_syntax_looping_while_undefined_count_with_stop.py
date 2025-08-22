@@ -25,4 +25,4 @@ if understood_count == book_count:
     print('Kid says, "Mom, all the books have been read & understood"')
 else:
     print(f'Kid says, "Mom, '
-          f'i can only have {understood_count} books " ')
+          f'i can only have {understood_count} books understood" ')
